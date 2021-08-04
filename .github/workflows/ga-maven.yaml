@@ -30,4 +30,4 @@ jobs:
       run: mvn validate --file kanban-app/pom.xml
 
     - name: Build with Maven
-      run: mvn build --file kanban-app/pom.xml
+      run: mvn compile --file kanban-app/pom.xml
